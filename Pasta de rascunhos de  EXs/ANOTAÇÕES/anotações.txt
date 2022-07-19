@@ -1,0 +1,14 @@
+console.log("")/ console.warn("") / console.error("")
+alert("") - aparece o "Ok" apenas / confirm("") - "Ok" ou "Cancel" / prompt("") - pergunta
+
+let - atribui variavel e pode ser alterada posteriormente
+const - atribui variavel e não pode ser alterada posteriormente
+var - mema coisa que o let
+
+
+NPM - instala arquivos
+NPX - utiliza os comandos do arquivo - utilizado como um atalho para o diretório de comandos do arquivo desejado
+
+then() está para resolve()
+assim como
+catch() está para reject()

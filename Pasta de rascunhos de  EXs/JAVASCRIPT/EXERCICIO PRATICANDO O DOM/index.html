@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corretora</title>
+    <script src="/scripts.js"></script>
+</head>
+<body>
+    <form onsubmit="addImovel()">
+    <p>
+        <h4>Informe o tipo do imóvel: </h4>
+        <input type="radio" name="tipoDoImovel" id="Casa" value="Casa">
+        <label for="Casa">Casa</label>
+        <input type="radio" name="tipoDoImovel" id="Apartamento" value="Apartamento">
+        <label for="Apartamento">Apartamento</label>
+    </p>
+    <p>
+        <h4>Informe quanto a locação:</h4>
+        <input type="radio" name="alugado" id="y" value = true>
+        <label for="y">Está alugado.</label>
+        <input type="radio" name="alugado" id="n" value = false>
+        <label for="n">Não está alugado.</label>
+    </p>
+    <p>
+        <h4>Informe a área do imóvel</h4>
+        <input type="text" name="area" id="area">
+    </p>  
+    <button type="submit"> Enviar </button>  
+  </form>
+  <h3> Lista de imóveis </h3>
+  <hr>
+
+    <p id="imoveis">
+
+    </p>
+</body>
+</html>

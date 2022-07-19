@@ -1,7 +1,0 @@
-console.log("")/ console.warn("") / console.error("")
-alert("") - aparece o "Ok" apenas / confirm("") - "Ok" ou "Cancel" / prompt("") - pergunta
-
-let - atribui variavel e pode ser alterada posteriormente
-const - atribui variavel e não pode ser alterada posteriormente
-var - mema coisa que o let
-

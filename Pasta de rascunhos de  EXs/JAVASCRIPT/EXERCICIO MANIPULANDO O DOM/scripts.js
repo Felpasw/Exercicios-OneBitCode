@@ -6,7 +6,7 @@ function addAdress(){
     var CidadeLi = document.createElement("li");
     var AreaLi = document.createElement("li");
     var txt = document.createElement("li");
-    numendereco ++;
+    // numendereco ++;
     
    
    
@@ -16,7 +16,7 @@ function addAdress(){
     var cidade = document.createTextNode("Cidade: "+ document.getElementById("Cidade").value);
     var Area = document.createTextNode("Área: "+ document.getElementById("area").value);
 
-    txt.appendChild(Endereco);
+    // txt.appendChild(Endereco);
     NumeroLi.appendChild(Numero);
     BairroLi.appendChild(Bairro);
     CidadeLi.appendChild(cidade);
